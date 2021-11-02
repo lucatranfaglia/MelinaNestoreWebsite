@@ -1,12 +1,20 @@
 
 body{
   background-color: #e9e8e8 !important;
+  
+}
+
+h1, h2, h3, h4,h5,p{
+  font-family: -apple-system, "BlinkMacSystemFont", 'Segoe UI', "Roboto", 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #808080 !important;
 }
 
 .width-100{
   width: 100%;
 }
-
+.width-75{
+  width: 75%;
+}
 
 .height-100{
   height: 100% !important;
@@ -38,6 +46,9 @@ body{
 
 .nav-text{
   width: 10em;
+}
+nav, nav .nav-color{
+  background-color: #e9e8e8;
 }
 
 /* ---------------------------------- */
@@ -72,6 +83,10 @@ body{
 }
 .padding-r-50{
   padding-right:50px;
+}
+
+.margin-0{
+  margin: 0 !important;
 }
 /* ---------------------------------- */
 .fb{
@@ -150,8 +165,26 @@ body{
   border-radius: 0 0 25% 25%;
 }
 
-#interprete{
+
+
+#interprete .col-left, 
+#insegnante .col-left{
   background-color: #ffff ;
+  border-radius: 0 10px 10px 0;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+#traduttrice .col-right{
+  background-color: #ffff ;  
+  border-radius: 10px 0 0 10px;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+.img-servizi{
+  background-color: #ffff ;  
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 /* ---------------------------------- */
