@@ -102,3 +102,13 @@ dist
 
 # TernJS port file
 .tern-port
+
+fontawesome/
+img/
+js/
+css/materialize*
+
+*.jpg
+*.pdf
+*.png
+*.ico

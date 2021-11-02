@@ -1,0 +1,165 @@
+
+body{
+  background-color: #e9e8e8 !important;
+}
+
+.width-100{
+  width: 100%;
+}
+
+
+.height-100{
+  height: 100% !important;
+}
+
+.hero{
+  background-color:#ffff;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.hero-img{
+  border-radius: 0 0 0 10px;
+}
+
+.brand-logo img {
+  height: 100%;
+}
+
+.title-text{
+  color: grey;
+}
+/* ---------------------------------- */
+/* NAVABAR */
+/* ---------------------------------- */
+.navbar-custom nav{
+  box-shadow: unset;
+}
+
+.nav-text{
+  width: 10em;
+}
+
+/* ---------------------------------- */
+.btn-registrazione{
+  width: 100%;
+}
+/* ---------------------------------- */
+.icon-teal{
+  color: #26a69a;
+}
+
+.icon-white{
+  color: #ffff;
+}
+/* ---------------------------------- */
+/* PADDING */
+/* ---------------------------------- */
+.padding-0{
+  padding: 0 !important;
+}
+.padding-5{
+  padding:5px;
+}
+.padding-l-10{
+  padding-left: 10px;
+}
+.padding-r-10{
+  padding-right: 10px;
+}
+.padding-l-50{
+  padding-left:50px;
+}
+.padding-r-50{
+  padding-right:50px;
+}
+/* ---------------------------------- */
+.fb{
+  color:#3B5998;
+}
+.ig{
+  color:#feda77;
+}
+.tw{
+  color:#1DA1F2;
+}
+.yt{
+  color:#CC181E;
+}
+/* ---------------------------------- */
+.social-icon-size{
+  font-size: x-large;
+}
+.social-icon-hover:hover{
+  filter: invert(1);
+}
+/* ---------------------------------- */
+.section-introduzione,
+.section-registrazione,
+.section-prenota{
+  height:100%;
+  width: 100%;
+}
+/* ---------------------------------- */
+#registrazione #mc_embed_signup div.mce_inline_error{
+  background-color: transparent!important;
+}
+/* ---------------------------------- */
+.footer-copyright{
+  background-color: #1b8e83 !important;
+}
+/* ---------------------------------- */
+.flag-ul-width{
+  width:8em;
+}
+
+.flag-li-width{
+  width: 4em;
+}
+
+/* england */
+.eng {
+ background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjUgMTUiIGhlaWdodD0iNzIwIj4NCjxwYXRoIGZpbGw9IiNmZmYiIGQ9Im0wLDBoMjV2MTVoLTI1eiIvPg0KPGcgZmlsbD0iI2NmMTQyYiI+DQo8cGF0aCBkPSJtMTEsMGgzdjE1aC0zeiIvPg0KPHBhdGggZD0ibTAsNmgyNXYzaC0yNXoiLz4NCjwvZz4NCjwvc3ZnPg0K');
+ /* width: 166.66666666667%;
+ height: 100%; */
+ background-size: 100% 100%;
+}
+/* spain */
+.es {
+ background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NTAgNTAwIj4NCjxwYXRoIGZpbGw9IiNjNjBiMWUiIGQ9Im0wLDBoNzUwdjUwMGgtNzUweiIvPg0KPHBhdGggZmlsbD0iI2ZmYzQwMCIgZD0ibTAsMTI1aDc1MHYyNTBoLTc1MHoiLz4NCjwvc3ZnPg0K');
+ /* width: 150%;
+ height: 100%; */
+ background-size: 100% 100%;
+}
+/* italy */
+.it {
+ background: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBoZWlnaHQ9IjEwMDAiIHZpZXdCb3g9IjAgMCAzIDIiPg0KPHBhdGggZmlsbD0iIzAwOTI0NiIgZD0ibTAsMGgxdjJoLTF6Ii8+DQo8cGF0aCBmaWxsPSIjZmZmIiBkPSJtMSwwaDF2MmgtMXoiLz4NCjxwYXRoIGZpbGw9IiNjZTJiMzciIGQ9Im0yLDBoMXYyaC0xeiIvPg0KPC9zdmc+DQo=');
+ /* width: 150%;
+ height: 100%; */
+ background-size: 100% 100%;
+}
+
+/* ---------------------------------- */
+/* CHI SONO */
+/* ---------------------------------- */
+#chisono .container-fluid{
+  background-color: #ffff ;
+}
+#servizi .container-fluid{
+  background-color: #ffff ;
+  border-radius: 0 0 25% 25%;
+}
+
+#interprete{
+  background-color: #ffff ;
+}
+
+/* ---------------------------------- */
+@media only screen and (max-width : 600px) {
+  .padding-l-50{
+    padding-left:10px;
+  }
+  .padding-r-50{
+    padding-right:10px;
+  }
+}
