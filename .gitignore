@@ -103,10 +103,10 @@ dist
 # TernJS port file
 .tern-port
 
-fontawesome/
+# fontawesome/
 # img/
-js/
-css/materialize*
+# js/
+# css/materialize*
 
 *.jpg
 *.pdf
