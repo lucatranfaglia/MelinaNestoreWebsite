@@ -49,43 +49,55 @@
     <div class="navbar-fixed navbar-custom">
       <nav>
         <div class="nav-wrapper nav-color padding-l-50 padding-r-50">
-          
-          <ul class="left hide-on-med-and-down ml-5 mr-5">
+          <a href="#" class="brand-logo left d-flex height-100">
+            <img src="./logo.png" />
+          </a>          
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down ml-5 mr-5">
             <li class="nav-text center">
               <a class="smooth" href="#chisono">Chi sono</a>
             </li>
             <li class="nav-text center">
               <a class="smooth" href="#servizi">Servizio</a>
             </li>            
+            <li class="nav-text center">
+              <a class="smooth" href="#contattami">Contattami</a>
+            </li>
+            <li class="nav-text center">
+              <a class="smooth" href="#cv">CV</a>
+            </li>  
+
+            <li class="nav-text center flag-li-width">
+              <a class="smooth" href="home_eng.html">
+                 <i class="smooth eng"></i>
+              </a>
+            </li> 
           </ul>
-          <a href="#" class="brand-logo center d-flex height-100">
-            <img src="./logo.png" />
-          </a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-            <i class="material-icons">menu</i>
-          </a>
-          <ul class="right hide-on-med-and-down flag-ul-width d-none d-sm-block">
+          
+          <!-- <ul class="right hide-on-med-and-down flag-ul-width d-none d-sm-block">
             <li class="nav-text center flag-li-width">
               <a class="smooth" href="#eng">
                  <i class="smooth eng"></i>
               </a>
             </li>   
-
             <li class="nav-text center flag-li-width">
               <a class="smooth" href="#es">
                  <i class="smooth es"></i>
               </a>
             </li>   
-          </ul>
+          </ul> -->
 
-          <ul class="right hide-on-med-and-down">
+
+          <!-- <ul class="right hide-on-med-and-down">
             <li class="nav-text center">
               <a class="smooth" href="#contattami">Contattami</a>
             </li>
             <li class="nav-text center">
               <a class="smooth" href="#cv">CV</a>
             </li>                
-          </ul>
+          </ul> -->
           
           
 
@@ -104,12 +116,12 @@
               <a class="smooth" href="#cv">CV</a>
             </li>
             <li>
-              <a class="smooth" href="#en">EN</a>
+              <a class="smooth" href="home_eng.html">EN</a>
               
             </li>
-            <li>
+            <!-- <li>
               <a class="smooth" href="#es">ES</a>
-            </li>
+            </li> -->
           </ul>
           
         </div>
@@ -141,31 +153,34 @@
     </div>
 
     <!-- CHI SONO -->
-    <div id="chisono" class="mt-5" >
+    <div id="chisono" class="mt-5 mb-5" >
       <div class="container chisono-container">
         <div class="section">
           <div class="row mt-3">
-            <div class="col-xs-12 col-sm-4 offset-sm-4">
+            <div class="col-xs-12 col-sm-4">
               <img src="/img/chiSono.png" srcset='./img/chiSono@2x.png 1000w, ./img/chiSono@0.5x.png 1000w' sizes='(min-width: 960px) 960px, 100vw' alt="chisono" class="hero-img width-100">
             </div>
-          </div>
-          <!--   Title Chisono   -->
-          <div class="row">
-            <div class="col-sm-12">
-              <h1 class="center">Chi sono</h1>  
+            <div class="col-xs-12 col-sm-8">
+              <!--   Title Chisono   -->
+              <div class="row">
+                <div class="col-sm-12">
+                  <h1 class="center">Chi sono</h1>  
+                </div>
+              </div>
+              <!--   Context Chisono   -->
+              <div class="row mb-0 mr-4 ml-4">
+                <div class="col-xs-12">
+                  <p class="center">Nata a Buenos Aires da famiglia italiana, ho vissuto per dieci anni in Argentina prima di trasferirmi in Italia, dove abito dal 2001. Oltre ad aver studiato inglese, francese e tedesco per molti anni, ho portato avanti i miei studi tra l'Inghilterra, il Belgio e  la Germania. La mia passione per la linguistica e le culture straniere mi ha portata a scegliere la mia attuale carriera: facilitare la comunicazione di chi non condivide la stessa lingua. Nel corso degli anni ho lavorato come interprete freelance nelle modalità simultanea e consecutiva. Mi occupo anche di traduzione e formazione linguistica in inglese, spagnolo e italiano. Dal 2014 contribuisco alla gestione di Creating Connections (corsi di lingue, interpretariato e traduzione), dove, tra le altre cose, coltivo l'altra mia grande passione, l'illustrazione, attraverso la creazione di materiale didattico per bambini.</p>
+                </div>
+              </div>
             </div>
           </div>
-          <!--   Context Chisono   -->
-          <div class="row mt-2">
-            <div class="col-xs-12 col-sm-8 offset-sm-2">
-              <p class="center">Nata a Buenos Aires da famiglia italiana, ho vissuto per dieci anni in Argentina prima di trasferirmi in Italia, dove abito dal 2001. Oltre ad aver studiato inglese, francese e tedesco per molti anni, ho portato avanti i miei studi tra l'Inghilterra, il Belgio e  la Germania. La mia passione per la linguistica e le culture straniere mi ha portata a scegliere la mia attuale carriera: facilitare la comunicazione di chi non condivide la stessa lingua. Nel corso degli anni ho lavorato come interprete freelance nelle modalità simultanea e consecutiva. Mi occupo anche di traduzione e formazione linguistica in inglese, spagnolo e italiano. Dal 2014 contribuisco alla gestione di Creating Connections (corsi di lingue, interpretariato e traduzione), dove, tra le altre cose, coltivo l'altra mia grande passione, l'illustrazione, attraverso la creazione di materiale didattico per bambini.</p>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
     <div id="servizi" class="mb-5" >
-      <div class="container chisono-container">
+      <div class="container-fluid chisono-container">
         <div class="section">
           <!--   Title Servizi   -->
           <div class="row">
@@ -175,8 +190,8 @@
           </div>
           <!--   Icon Servizi   -->
           <div class="row m-5">
-            <div class="col s12 s3">
-              <div class="icon-block">
+            <div class="col s12 s3 m-2 servizi-bg servizi1">
+              <div class="icon-block m-4">
                 <h2 class="center brown-text"><i class="material-icons icon-teal">headset_mic</i></h2>
                 <h5 class="center">Interprete</h5>
 
@@ -185,19 +200,19 @@
                 </p>
               </div>
             </div>
-            <div class="col s12 s3">
-              <div class="icon-block">
+            <div class="col s12 s3 m-2 servizi-bg servizi2">
+              <div class="icon-block m-4">
                 <h2 class="center brown-text"><i class="material-icons icon-teal">g_translate</i></h2>
-                <h5 class="center">traduttrice</h5>
+                <h5 class="center">Traduttrice</h5>
 
                 <p class="light center">
-                  traduttrice...
+                  Traduttrice giurate, revisione
                 </p>
               </div>
             </div>
 
-            <div class="col s12 s3">
-              <div class="icon-block">
+            <div class="col s12 s3 m-2 servizi-bg servizi3">
+              <div class="icon-block m-4">
                 <h2 class="center brown-text"><i class="material-icons icon-teal">import_contacts</i></h2>
                 <h5 class="center">Insegnante</h5>
 
@@ -302,7 +317,7 @@
               </li>              
             </ul>
             <p>
-              Insegno di persona sia di persona che su: Skype, Zoom, Meet
+              Insegno di persona sia di persona che su: Skype, Zoom, Meet
             </p>
           </div>
         </div>
@@ -310,7 +325,7 @@
     </div>
 
     <!-- FOOTER -->
-    <footer class="page-footer teal darken-3" id="contattami">
+    <footer class="page-footer mt-5" id="contattami">
       <div class="container">
         <div class="row">
           <div class="col l12 s12 center">
@@ -318,7 +333,10 @@
             <a href="mailto:info@mail.com" class="social-icon padding-5" target="_blank">
               <i class="fas fa-envelope-open-text icon-white social-icon-size social-icon-hover"></i>
             </a>
-            <a href="#" class="padding-5" target="_blank">
+            <a href="https://www.linkedin.com/in/melina-nestore/" class="padding-5" target="_blank">
+              <i class="fab fa-linkedin-in icon-white social-icon-size social-icon-hover"></i>
+            </a>
+            <!-- <a href="#" class="padding-5" target="_blank">
               <i class="fab fa-facebook-f icon-white social-icon-size social-icon-hover"></i>
             </a>
             <a href="#" class="padding-5" target="_blank">
@@ -329,31 +347,33 @@
             </a>
             <a href="#" class="padding-5" target="_blank">
               <i class="fab fa-youtube icon-white social-icon-size social-icon-hover"></i>
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
       <div class="footer-copyright">
         <div class="container">
-          <div class="row margin-0">
-            <div class="col-sm-6 text-left d-flex align-items-center justify-content-start">
-              <div>
-                <div class="col-sm-12">
-                  <a class="white-text text-lighten-3" href="mailto:info@mail.com" target="_blank"><img src="/img/email_img.png" srcset='./img/email_img@2x.png 2000w, ./img/email_img@0.5x.png 1000w' sizes='(min-width: 960px) 960px, 100vw' alt="telephone_img" ></a> <a class="white-text text-lighten-3" href="mailto:info@mail.com" target="_blank">melinanestore@gmail.com</a>
-                </div>
-                <div class="col-sm-12">
-                  <a class="white-text text-lighten-3" href="tel::info@mail.com" target="_blank"><img src="/img/telephone_img.png" srcset='./img/telephone_img@2x.png 2000w, ./img/telephone_img@0.5x.png 1000w' sizes='(min-width: 960px) 960px, 100vw' alt="telephone_img" ></a> (+39) 3282630851
-                </div>
-                <div class="col-sm-12">
-                  <a class="white-text text-lighten-3" href="tel::info@mail.com" target="_blank"><img src="/img/telephone_img.png" srcset='./img/telephone_img@2x.png 2000w, ./img/telephone_img@0.5x.png 1000w' sizes='(min-width: 960px) 960px, 100vw' alt="telephone_img" ></a> Skype : melinanestore
-                </div>
-                <div class="col-sm-12">
-                  <a class="white-text text-lighten-3" href="tel::info@mail.com" target="_blank"><img src="/img/telephone_img.png" srcset='./img/telephone_img@2x.png 2000w, ./img/telephone_img@0.5x.png 1000w' sizes='(min-width: 960px) 960px, 100vw' alt="telephone_img" ></a> Domicilio: Firenze, Toscana
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 text-right d-flex align-items-center justify-content-end">
 
+          <div class="row margin-0">
+            <div class="col-sm-12 text-center d-flex align-items-center justify-content-space-between">
+              
+                
+              <a class="white-text text-lighten-3" href="mailto:info@mail.com" target="_blank"><img src="/img/email_img.png" srcset='./img/email_img@2x.png 2000w, ./img/email_img@0.5x.png 1000w' sizes='(min-width: 960px) 960px, 100vw' alt="telephone_img" > melinanestore@gmail.com</a>
+            
+            
+              <a class="white-text text-lighten-3" href="tel::info@mail.com" target="_blank"><img src="/img/telephone_img.png" srcset='./img/telephone_img@2x.png 2000w, ./img/telephone_img@0.5x.png 1000w' sizes='(min-width: 960px) 960px, 100vw' alt="telephone_img" > (+39) 3282630851</a> 
+            
+            
+              <a class="white-text text-lighten-3"><img src="/img/telephone_img.png" srcset='./img/telephone_img@2x.png 2000w, ./img/telephone_img@0.5x.png 1000w' sizes='(min-width: 960px) 960px, 100vw' alt="telephone_img" > Skype : melinanestore</a> 
+            
+            
+              <a class="white-text text-lighten-3"><img src="/img/telephone_img.png" srcset='./img/telephone_img@2x.png 2000w, ./img/telephone_img@0.5x.png 1000w' sizes='(min-width: 960px) 960px, 100vw' alt="telephone_img" > Domicilio: Firenze, Toscana</a> 
+                
+             
+            </div>
+          </div>
+          <div class="row mt-1 mb-0">
+            <div class="col-sm-12 text-right d-flex align-items-center justify-content-end">
               2021 &copy; <a class="white-text text-lighten-3" href="" target="_blank">Melina Nestore</a>
             </div>
           </div>
@@ -370,24 +390,5 @@
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
 
-    <!-- TYPEFORMS -->
-    <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-
-    <!-- MAILCHIMP -->
-    <!-- <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-    <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
-              
-    <!-- SUMOME -->
-    <!-- <script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='8676704ad68e3436b7a79ed50a5dc5d4ca54352fe7b926c6806349b3c02713ac';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>
-    <script>
-      var smooth = [$('a.smooth'), 100, 750];
-
-      smooth[0].click(function() {
-        $('html, body').animate({
-            scrollTop: $('[id="' + $.attr(this, 'href').substr(1) + '"]').offset().top -smooth[1]
-        }, smooth[2]);
-        return false;
-      });
-    </script> -->
   </body>
 </html>
