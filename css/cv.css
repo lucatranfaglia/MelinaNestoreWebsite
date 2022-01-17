@@ -1,0 +1,31 @@
+
+#cv{
+  background-color: white;
+  border-radius: 10px;  
+}
+
+a{
+  color: #808080 !important;
+}
+
+h1{
+  font-size: 1.8em !important;
+}
+
+.title{
+  font-weight: 600;
+  color: #4a4949;
+  font-size: 1.4em;
+}
+
+.date{
+  font-weight: 500;
+  color: #4a4949;
+  font-size: 1.0em;
+}
+p, .context{
+  font-weight: 300;
+  font-size: 1.0em;
+  color: #808080;
+}
+
